@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Studio Options</title>
+    <link rel="stylesheet" href="src/popup.css">
+  </head>
+  <body>
+    <main class="app app-options">
+      <header class="hero">
+        <p class="eyebrow">Prompt Studio</p>
+        <h1>默认配置</h1>
+        <p class="subtle">控制默认平台、默认增强策略和悬浮入口。</p>
+      </header>
+
+      <section class="grid two">
+        <label class="field">
+          <span>默认平台</span>
+          <select id="defaultPlatform"></select>
+        </label>
+        <div class="card compact-card">
+          <div class="section-title">页面入口</div>
+          <label><input type="checkbox" id="enableFloatingButton"> 显示悬浮入口</label>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="actions">
+          <button id="save" class="primary">保存设置</button>
+        </div>
+        <p id="status" class="status"></p>
+      </section>
+    </main>
+
+    <script src="src/data.js"></script>
+    <script src="src/options.js"></script>
+  </body>
+</html>
