@@ -68,4 +68,4 @@ MVP 整理与基础规范补齐阶段。
 - 2026-07-10：`0.1.15` 通过 `node --check src/popup.js`、`node --check src/content.js` 和 `manifest.json` 解析检查；确认复制成功提示逻辑、站内父页面复制提示消息和复制/插入按钮配色规则已写入。
 - 2026-07-10：`0.1.16` 通过 `node --check src/popup.js`、`node --check src/content.js` 和 `manifest.json` 解析检查；确认左侧标签栏已通过 `scrollbar-width: none` 和 `::-webkit-scrollbar` 隐藏可见滚动条。
 - 2026-07-10：用户反馈 `0.1.16` 人工验收完成。
-- 2026-07-10：本地创建 Git commit `08bc7b1`，并通过 GitHub 插件 API 上传到 `LiZhiWeiGZ/easy-prompt`。
+- 2026-07-10：本地创建 Git commit `08bc7b1` 和 `db638d6`；远端 `main` 通过 GitHub 插件 API 更新到 `c16af7c`，并确认远端 tree 包含 21 个项目文件。
