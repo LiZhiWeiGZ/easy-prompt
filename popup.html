@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Studio</title>
+    <link rel="stylesheet" href="src/popup.css">
+  </head>
+  <body>
+    <main class="app">
+      <header class="topbar">
+        <div class="platform-controls">
+          <label class="field platform-field">
+            <select id="platform" aria-label="平台"></select>
+          </label>
+          <label class="platform-toggle">
+            <input id="includePlatform" type="checkbox">
+            <span>启用平台适配</span>
+          </label>
+        </div>
+        <div class="top-actions">
+          <button id="copy" type="button">复制</button>
+          <button id="insert" type="button">插入当前页面</button>
+        </div>
+      </header>
+
+      <section class="workspace">
+        <nav id="techniqueTabs" class="tabs" aria-label="Prompt 技巧"></nav>
+
+        <section class="panel">
+          <form id="techniqueForm" class="form"></form>
+
+          <section class="result-panel">
+            <div class="result-header">
+              <div>
+                <div class="section-title">生成结果</div>
+                <p>用于直接复制到当前 AI 对话</p>
+              </div>
+            </div>
+            <textarea id="result" rows="11" placeholder="填写后点击复制或插入，会自动生成 Prompt。"></textarea>
+            <p id="status" class="status"></p>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <script src="src/data.js"></script>
+    <script src="src/prompt-engine.js"></script>
+    <script src="src/popup.js"></script>
+  </body>
+</html>
