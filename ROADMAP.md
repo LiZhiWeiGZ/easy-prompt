@@ -26,6 +26,7 @@ MVP 整理与基础规范补齐阶段。
 - 2026-07-10：用户反馈 `0.1.16` 人工验收完成，确认当前前端视觉优化进度已保存。
 - 2026-07-10：补充 `.gitignore` 并准备本地 Git 仓库，用于上传 GitHub。
 - 2026-07-10：完成 GitHub 远端上传，仓库为 `https://github.com/LiZhiWeiGZ/easy-prompt`。
+- 2026-07-11：更新 `README.md` 项目简介，移除课程来源描述和 README 末尾建议段落。
 
 ## 进行中
 
@@ -69,3 +70,4 @@ MVP 整理与基础规范补齐阶段。
 - 2026-07-10：`0.1.16` 通过 `node --check src/popup.js`、`node --check src/content.js` 和 `manifest.json` 解析检查；确认左侧标签栏已通过 `scrollbar-width: none` 和 `::-webkit-scrollbar` 隐藏可见滚动条。
 - 2026-07-10：用户反馈 `0.1.16` 人工验收完成。
 - 2026-07-10：本地创建 Git commit `08bc7b1` 和 `db638d6`；远端 `main` 通过 GitHub 插件 API 更新到 `c16af7c`，并确认远端 tree 包含 21 个项目文件。
+- 2026-07-11：检查 `README.md` 已移除原课程来源描述和 README 末尾建议段落。

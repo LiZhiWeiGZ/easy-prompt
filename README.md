@@ -1,6 +1,6 @@
 # Prompt Studio Chrome Extension
 
-一个基于《02.AI 学习之路之「学会跟 AI 说话：Prompt 从入门到精通」》整理出来的 Chrome 插件 MVP。
+一个用于在主流 AI 对话网站中生成、复制和插入结构化 Prompt 的 Chrome 扩展 MVP。
 
 ## 当前能力
 
@@ -65,10 +65,3 @@ prompt-studio-extension/
     popup.js
     prompt-engine.js
 ```
-
-## 下一步建议
-
-- 增加模板编辑器，让你把书里的固定套路保存成自己的模板库
-- 增加平台 DOM 适配层，让 ChatGPT、Claude、豆包等站点插入更稳定
-- 增加 Prompt 历史记录、收藏夹和变量预设
-- 增加“从选中文本生成 Prompt”的右键菜单入口
