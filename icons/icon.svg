@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Prompt Studio">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="12" x2="112" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#162025"/>
+    </linearGradient>
+    <linearGradient id="card" x1="32" y1="30" x2="96" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8F5F2"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#bg)"/>
+  <path d="M34 36c0-7 5-12 12-12h36c7 0 12 5 12 12v33c0 7-5 12-12 12H60L43 96c-3 3-9 1-9-4V36Z" fill="url(#card)"/>
+  <path d="M48 44h32M48 56h26M48 68h18" stroke="#11776D" stroke-width="7" stroke-linecap="round"/>
+  <path d="M90 72l5 11 11 5-11 5-5 11-5-11-11-5 11-5 5-11Z" fill="#F7C96B"/>
+  <path d="M90 72l5 11 11 5-11 5-5 11-5-11-11-5 11-5 5-11Z" stroke="#162025" stroke-opacity=".12" stroke-width="2"/>
+</svg>
